@@ -1,0 +1,140 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	/*background: #961891;*/
+	background: #961891;
+	color: #fff;
+	width: 100%;
+}
+.headerMenu{
+	line-height: 40px;
+}
+.logo > img{
+	max-width: 100px;
+	margin-top: 10px;
+}
+input[type='number']{
+	width: 70px;
+}
+input[placeholder='Search']{
+	width: 200px;
+}
+header input, select{
+	border-radius: 4px;
+}
+.headerUser{
+	line-height: 5px;
+	font-size: 14px;
+}
+.headerBtn{
+	color: #fff;
+	background: #292929;
+	padding: 4px 25px;
+	border: 1px solid rgba(255,255,255,.52);
+	border-radius: 9px;
+	margin-left: 60px;
+	font-size: 11px;
+}
+
+section{
+	display: flex;
+	width: 100%;
+	padding-top: 88px;
+}
+.left, aside{
+	width: 20%;
+}
+.avatar{
+	margin-left: 20px;
+}
+.content{
+	width: 60%;
+}
+.left{
+	text-align: center;
+	border-right: 5px solid #961891;
+}
+.left menu > ul li{
+	list-style: none;
+	text-align: left;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.left menu{
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.left > .warning{
+	background: #961891;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 2px;
+	font-size: 12px;
+	color: #EEAE04;
+}
+.avatar > img{
+	max-height: 300px;
+}
+.common{
+	display: flex;
+	padding-top: 30px;
+	margin-left: 5px;
+}
+.common > div{
+	padding-right: 50px;
+}
+.contentAbout{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid rgba(0,0,0,.4);
+	width: 300px; 
+	line-height: 40px;
+	text-align: left;
+}
+.common  p{
+	font-size: 14px;
+	color: #67B6DF;
+}
+.services > h3, .video > h3, .review > h3{
+	font-size: 28px;
+	font-weight: lighter;
+}
+.services, .video, .review{
+	margin-left: 20px;
+}
+.addServices{
+	background: #DDDDDD;
+	width: 640px;
+	font-size: 12px;
+	border-radius: 30px 30px;
+	padding: 10px 5px;
+	margin-bottom: 20px;
+	line-height: 10px;
+}
+.bgAddServices{
+	background: #fff;
+	width: 20%;
+	margin-left: 20px;
+	padding: 1px 10px;
+
+}
+.bgAddServices > p:first-child, .fa-pencil-alt{
+	color: #67B6DF;
+}
+.fa-times{
+	color: red;
+	padding-right: 10px;
+}
+.addVideo,.addReview{
+	background: #DDDDDD;
+	width: 640px;
+	height: 100px;
+	border-radius: 30px 30px;
+}
